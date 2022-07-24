@@ -4,12 +4,12 @@ version: 2
 sources:
     - name: staging
       #For bigquery:
-      database: dbt-dataeng-copy
-      schema: trips_data_all
-      # For postgres:
-      # database: production
+      #database: taxi-rides-ny-339813
 
-      
+      # For postgres:
+      database: production
+
+      schema: trips_data_all
 
       # loaded_at_field: record_loaded_at
       tables:
